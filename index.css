@@ -135,7 +135,7 @@ nav>div:nth-child(2)>ul>li>a>button {
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    height: 70vh;
+    height: 100vh;
 }
 .about1>div:nth-child(1){
     width: 40%;
@@ -179,9 +179,10 @@ nav>div:nth-child(2)>ul>li>a>button {
 }
 .footer{
     width: 100%;
-    padding: 50px 0 50px 0;
+    padding: 0px 0 50px 0;
 }
 .footer>div:nth-child(1)>h1{
+    margin-top: 50px;
     text-align: center;
     color: white;
     font-size: 30px;
@@ -342,27 +343,64 @@ nav>div:nth-child(2)>ul>li>a>button {
   }
 
   
- 
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
   text.ContributionCalendar-label {
       fill: #ccc;
       font-size: 11px;
   }
-
-
+  #projects{
+    width: 100%;
+  }
+  #projects>h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  #projects>div:nth-child(2){
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0 25px 0;
+  }
+  #projects>div:nth-child(2)>div{
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 450px;
+    background-color:#ccc;
+    color: white;
+    padding: 25px 0 25px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #projects>div:nth-child(2)>div a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  #projects>div:nth-child(2)>div>img{
+    width: 90%;
+    margin: auto;
+    height: 250px;
+  }
+  #projects>div:nth-child(2)>div>div>div>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top:10px ;
+    margin-bottom:10px ;
+  }
+  #projects>div:nth-child(2)>div>div>div>div>img{
+    width: 40px;
+  }
 @media all and (min-width:600px) and (max-width:1000px) {
 
     nav>div:nth-child(2) {
@@ -512,6 +550,11 @@ nav>div:nth-child(2)>ul>li>a>button {
         display: grid;
         grid-template-rows: repeat(3,35%);
         grid-template-columns:repeat(3,40%);
+    }
+    #projects>div:nth-child(2)>div{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -687,5 +730,13 @@ nav>div:nth-child(2)>ul>li>a>button {
     }
     .technicalSkills>div:nth-child(2) div>img{
         width: 80px;
+    }
+    #projects>div:nth-child(2)>div{
+        width: 80%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
