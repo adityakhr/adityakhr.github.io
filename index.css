@@ -11,7 +11,9 @@ body {
     background-repeat: round;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 body a :hover {
     cursor: pointer;
 }
@@ -37,7 +39,6 @@ nav>div:first-child>h1>a {
     color: rgb(126 34 206);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
-
 }
 
 nav>div:nth-child(2)>ul>li>a:hover {
