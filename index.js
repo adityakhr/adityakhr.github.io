@@ -5,3 +5,6 @@ barContainer.addEventListener("click",function(){
     sidebar.classList.toggle("active");
 });
 
+function resume(){
+    window.open("https://drive.google.com/file/d/1eYN53SgKZ7bet7Z9TvNZBInMICiZH8p0/view?usp=share_link");
+  }
