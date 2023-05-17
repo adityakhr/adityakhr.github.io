@@ -38,9 +38,9 @@
                     <a class="nav-link contact" href="#contact">CONTACT</a>
                 </li>
                 <li>
-                    <a id="resume-link-2" class="nav-link resume" href="./Resume/./Aditya-Khare-Resume.pdf"
-                        download="Aditya-Khare-Resume.pdf" target="_blank"><button id="resume-button-1"
-                            onclick="resume()">RESUME</button></a>
+                    <button onclick="resume()" id="resume-button-1"><a id="resume-link-1"
+                        href="./Resume/./Aditya-Khare-Resume.pdf" download="Aditya-Khare-Resume.pdf"
+                        target="_blank">Resume</a></button>
                 </li>
             </ul>
         </div>
@@ -67,20 +67,22 @@
             <img src="./image/giphy.gif" alt="Error">
         </div>
     </section>
-    <section id="about" class="about1 section">
+    <section id="about" class="about section about1">
+        <h1 class="title">About</h1>
         <div>
-            <h1 class="title">About</h1>
-            <h3 id="user-detail-intro">
-                A self-motivated Java Backend Developer with a solid foundation in developing scalable backend applications. Proficient in Java programming language and able to work collaborati vely with cross-functional teams and deliver highquality software. Passionate about staying up-to-date. And having knowledge about Java, Hibernate, MySQL, C++, JavaScript, HTML, CSS.
-            </h3>
             <div>
-                <button onclick="resume()" id="resume-button-2"><a id="resume-link-1"
-                        href="./Resume/./Aditya-Khare-Resume.pdf" download="Aditya-Khare-Resume.pdf"
-                        target="_blank">Resume</a></button>
+                <h3 id="user-detail-intro">
+                    A self-motivated Java Backend Developer with a solid foundation in developing scalable backend applications. Proficient in Java programming language and able to work collaborati vely with cross-functional teams and deliver highquality software. Passionate about staying up-to-date. And having knowledge about Java, Hibernate, MySQL, C++, JavaScript, HTML, CSS.
+                </h3>
+                <div>
+                    <button onclick="resume()" id="resume-button-2"><a id="resume-link-2"
+                            href="./Resume/./Aditya-Khare-Resume.pdf" download="Aditya-Khare-Resume.pdf"
+                            target="_blank">Resume</a></button>
+                </div>
             </div>
-        </div>
-        <div>
-            <img class="home-img" src="./image/ProfessionalImage.jpg" alt="">
+            <div>
+                <img class="home-img" src="./image/ProfessionalImage.jpg" alt="">
+            </div>
         </div>
     </section>
     <section id="skills" class="technicalSkills">
@@ -146,7 +148,7 @@
                 <img src="./image/Eductory.png" alt="">
     
                 <div class="glass">
-                    <h3 class="project-title">Eductory</h3>
+                    <h3>Eductory</h3>
                     <div>
                         <p>Eductory is an automated student registration system. It aims
                             to simplify the process of registration of students. </p>
@@ -164,7 +166,7 @@
                 <img src="./image/IndusTech.png" alt="">
     
                 <div class="glass">
-                    <h3 class="project-title" >IndusTech</h3>
+                    <h3>IndusTech</h3>
                     <div>
                         <p>IndusTech is an E-commerce website that specializes in selling gadgets and mechanical industrial machines and parts.</p>
                         <div>
@@ -183,7 +185,7 @@
                 <img src="./image/ShoeFie.png" alt="">
     
                 <div>
-                    <h3 class="project-title" >ShoeFie</h3>
+                    <h3>ShoeFie</h3>
                     <div>
                         <p>Shoefie is a E-commerce website that sells the variety of shoes for men, women and kids.</p>
                         <div>
@@ -232,14 +234,27 @@
             <h1 class="title">Contact Me</h1>
             <p>__Let's have a discussion of project__</p>
             <div>
-                <a id="contact-linkedin" href="https://www.linkedin.com/in/aditya-khare-1a254b1b8/" target="_blank"><img
-                        src="./image/linkedin.svg" alt=""></a>
-                <a id="contact-github" href="https://github.com/adityakhr" target="_blank"><img
-                        src="./image/github1.svg" alt=""></a>
-                <a id="contact-email" href="mailto:aditya.khr1904@gmail.com" target="_blank"><img
-                        src="./image/email.svg" alt=""><span>.</span></a>
+                <div>
+                    <a href="https://www.linkedin.com/in/aditya-khare-1a254b1b8/" target="_blank" ><img src="./image/linkedin.svg" alt="Error"></a>
+                    <a id="contact-linkedin" href="https://www.linkedin.com/in/aditya-khare-1a254b1b8/" target="_blank">Linkedin</a>
+                </div>
+                <div>
+                    <a href="https://github.com/adityakhr" target="_blank"><img src="./image/github1.svg" alt="Error"></a>
+                    <a id="contact-linkedin" href="https://github.com/adityakhr" target="_blank">GitHub</a>
+                </div>
+                
+                <div>
+                    <a id="contact-email" href="mailto:aditya.khr1904@gmail.com" target="_blank"><img
+                        src="./image/email.svg" alt=""></a>
+                    <a id="contact-email" href="mailto:aditya.khr1904@gmail.com" target="_blank">Aditya.khr1904@gmail.com</a>
+                </div>
+                <div>
+                    <a id="contact-email" href="whatsapp:contact=015555555555@s.whatsapp.com&message=Hello, Aditya Khare" target="_blank"><img
+                        src="./image/phone.svg" alt=""></a>
+                    <a id="contact-phone" href="whatsapp:contact=015555555555@s.whatsapp.com&message=Hello, Aditya Khare" target="_blank">+91 9977820778</a>
+                </div>
             </div>
-            <h1 id="contact-phone">+91 9977820778</h1>
+            
         </div>
     </section>
 </body>
