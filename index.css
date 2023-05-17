@@ -456,7 +456,7 @@ nav>div:nth-child(2)>ul>li>button>a {
   #projects>div:nth-child(2)>div>div>div>div>img{
     width: 40px;
   }
-@media all and (min-width:600px) and (max-width:800px) {
+@media all and (min-width:600px) and (max-width:950px) {
 
     nav>div:nth-child(2) {
         display: block;
