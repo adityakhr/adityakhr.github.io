@@ -488,14 +488,14 @@ nav>div:nth-child(2)>ul>li>button>a {
     nav>div:nth-child(2)>ul>li>button {
         color: rgb(126 34 206);
         background-color: white;
-        padding: 8px 8px 8px 8px;
-        border-radius: 10px;
+        padding: 3px 3px 3px 3px;
+        border-radius: 4px;
         border: none;
     }
     nav>div:nth-child(2)>ul>li>button>a {
         color: rgb(126 34 206);
         font-weight: bolder;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     nav>div:first-child {
@@ -661,14 +661,14 @@ nav>div:nth-child(2)>ul>li>button>a {
     nav>div:nth-child(2)>ul>li>button {
         color: rgb(126 34 206);
         background-color: white;
-        padding: 8px 8px 8px 8px;
-        border-radius: 10px;
+        padding: 3px 3px 3px 3px;
+        border-radius: 4px;
         border: none;
     }
     nav>div:nth-child(2)>ul>li>button>a {
         color: rgb(126 34 206);
         font-weight: bolder;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     nav>div:first-child {
