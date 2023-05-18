@@ -428,17 +428,19 @@ nav>div:nth-child(2)>ul>li>button>a {
     margin-top: 15px;
     margin-bottom: 15px;
     height: 450px;
-    background-color:#ccc;
-    color: white;
+    color:black;
+    font-weight: 500;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 25px 0 25px 0;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
   }
   #projects>div:nth-child(2)>div a{
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bolder;
+    font-weight: 500;
   }
   #projects>div:nth-child(2)>div>img{
     width: 90%;
@@ -455,6 +457,12 @@ nav>div:nth-child(2)>ul>li>button>a {
   }
   #projects>div:nth-child(2)>div>div>div>div>img{
     width: 40px;
+  }
+  #projects>div:nth-child(2)>div:nth-child(2)>div>div>div>img{
+    width: 100px;
+  }
+  #projects>div:nth-child(2)>div:nth-child(1)>div>div>div>img{
+    width: 100px;
   }
 @media all and (min-width:600px) and (max-width:1000px) {
 
