@@ -6,19 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="">
-    <title>Aditya-Khare-Portfolio</title>
+    <title>Portfolio | Aditya Khare</title>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/x-icon" href="./image/logo.jpg" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav>
         <div>
-            <h1><a href="./index.html">Aditya Khare</a></h1>
+            <h1><a href="./index.html">ADITYA KHARE</a></h1>
         </div>
         <div>
             <ul id="nav-menu" class="links">
@@ -35,12 +37,15 @@
                     <a class="nav-link projects" href="#projects">PROJECTS</a>
                 </li>
                 <li>
+                    <a class="nav-link git" href="#gstats">GITHUB</a>
+                </li>
+                <li>
                     <a class="nav-link contact" href="#contact">CONTACT</a>
                 </li>
                 <li>
                     <button onclick="resume()" id="resume-button-1" class="nav-link resume"><a id="resume-link-1"
                         href="./Resume/./Aditya-Khare-Resume.pdf" download="Aditya-Khare-Resume.pdf"
-                        target="_blank">Resume</a></button>
+                        target="_blank">RESUME</a></button>
                 </li>
             </ul>
         </div>
@@ -72,12 +77,12 @@
         <div>
             <div>
                 <h3 id="user-detail-intro">
-                    A self-motivated Java Backend Developer with a solid foundation in developing scalable backend applications. Proficient in Java programming language and able to work collaborati vely with cross-functional teams and deliver highquality software. Passionate about staying up-to-date. And having knowledge about Java, Hibernate, MySQL, C++, JavaScript, HTML, CSS.
+                    A self-motivated Java Backend Developer with a solid foundation in developing scalable backend applications. Proficient in Java programming language and able to work collaboratively with cross-functional teams and deliver highquality software. Passionate about staying up-to-date. And having knowledge about Java, Hibernate, Spring, MySQL, C++, JavaScript, HTML and CSS.
                 </h3>
                 <div>
                     <button onclick="resume()" id="resume-button-2"><a id="resume-link-2"
                             href="./Resume/./Aditya-Khare-Resume.pdf" download="Aditya-Khare-Resume.pdf"
-                            target="_blank">Resume</a></button>
+                            target="_blank">RESUME</a></button>
                 </div>
             </div>
             <div>
@@ -86,7 +91,7 @@
         </div>
     </section>
     <section id="skills" class="technicalSkills">
-        <h2 class="title">My skills</h2>
+        <h2 class="title">Skills</h2>
         <div>
             <div class="skills-card">
                 <img class="skills-card-img" src="./image/java.svg" alt="">
@@ -153,7 +158,9 @@
                         <p class="project-description">FlavorDrop is an Online Food Delivery Application, which helps in management of restaurants and customers relations.</p>
                         <div class="project-tech-stack">
                             <img src="./image/java.svg" alt="">
+                            <img src="./image/mysql.svg" alt="">
                             <img src="./image/hibernatesvg.svg" alt="">
+                            
                         </div>
     
                     </div>
@@ -221,29 +228,29 @@
         </div>
     </section>
 
-    <section class="github">
+    <section id="gstats" class="github">
         <h2 class="section_title">Github Calander</h2>
         <div class="react-activity-calendar">
             <div class="calendar" data-aos="fade-up" data-aos-duration="1000">
-                <!-- Loading the data just for you. -->
+                <!-- Loading the data -->
             </div>
         </div>
         <div id="github">
             <div>
-                <h2 class="title">GITHUB STATS </h2>
-                <p>Have a look of my github stats</p>
+                <h2 class="title">Github Stats </h2>
+                <p>__Have a look of my github stats__</p>
             </div>
             <div>
-                <img id="github-stats-card"
-                    src="https://github-readme-stats.vercel.app/api?username=adityakhr&theme=swift_border=false&include_all_commits=false&count_private=true"
-                    alt="">
                 <img id="github-streak-stats"
                     src="https://github-readme-streak-stats.herokuapp.com/?user=adityakhr&theme=swift_border=false"
                     alt="">
                 <img id="github-top-langs"
                     src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityakhr&theme=swift_border=false&include_all_commits=false&count_private=true&layout=compact"
                     alt="">
-                <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=swift" alt="">
+                <img id="github-stats-card"
+                    src="https://github-readme-stats.vercel.app/api?username=adityakhr&theme=swift_border=false&include_all_commits=false&count_private=true"
+                    alt="">
+                <!-- <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=swift" alt=""> -->
             </div>
         </div>
     </section>
@@ -254,7 +261,7 @@
             <div>
                 <div>
                     <a href="https://www.linkedin.com/in/aditya-khare-1a254b1b8/" target="_blank" ><img src="./image/linkedin.svg" alt="Error"></a>
-                    <a id="contact-linkedin" href="https://www.linkedin.com/in/aditya-khare-1a254b1b8/" target="_blank">Linkedin</a>
+                    <a id="contact-linkedin" href="https://www.linkedin.com/in/aditya-khare-1a254b1b8/" target="_blank">LinkedIn</a>
                 </div>
                 <div>
                     <a href="https://github.com/adityakhr" target="_blank"><img src="./image/github1.svg" alt="Error"></a>
@@ -273,6 +280,11 @@
                 </div>
             </div>
             
+        </div>
+    </section>
+    <section id="bottom">
+        <div>
+            <p> <span>©</span> 2023 | Made By ADITYA KHARE</p>
         </div>
     </section>
 </body>

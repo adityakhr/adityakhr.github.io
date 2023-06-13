@@ -37,7 +37,7 @@ nav>div:first-child {
 nav>div:first-child>h1>a {
     text-decoration: none;
     color: rgb(126 34 206);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lobster Two', cursive;
     font-weight: bolder;
 }
 
@@ -47,6 +47,7 @@ nav>div:nth-child(2)>ul>li:nth-child(1)>a:hover {
     background-color: rgb(126 34 206);;
     padding: 8px 8px 8px 8px;
     border-radius: 10px;
+    transition: all .2s linear;
 }
 nav>div:nth-child(2)>ul>li:nth-child(2)>a:hover {
     color:white; 
@@ -54,6 +55,7 @@ nav>div:nth-child(2)>ul>li:nth-child(2)>a:hover {
     background-color: rgb(126 34 206);;
     padding: 8px 8px 8px 8px;
     border-radius: 10px;
+    transition: all .2s linear;
 }
 nav>div:nth-child(2)>ul>li:nth-child(3)>a:hover {
     color:white; 
@@ -61,6 +63,7 @@ nav>div:nth-child(2)>ul>li:nth-child(3)>a:hover {
     background-color: rgb(126 34 206);;
     padding: 8px 8px 8px 8px;
     border-radius: 10px;
+    transition: all .2s linear;
 }
 nav>div:nth-child(2)>ul>li:nth-child(4)>a:hover {
     color:white; 
@@ -68,6 +71,7 @@ nav>div:nth-child(2)>ul>li:nth-child(4)>a:hover {
     background-color: rgb(126 34 206);;
     padding: 8px 8px 8px 8px;
     border-radius: 10px;
+    transition: all .2s linear;
 }
 nav>div:nth-child(2)>ul>li:nth-child(5)>a:hover {
     color:white; 
@@ -75,6 +79,15 @@ nav>div:nth-child(2)>ul>li:nth-child(5)>a:hover {
     background-color: rgb(126 34 206);;
     padding: 8px 8px 8px 8px;
     border-radius: 10px;
+    transition: all .2s linear;
+}
+nav>div:nth-child(2)>ul>li:nth-child(6)>a:hover {
+    color:white; 
+    font-weight: bolder;
+    background-color: rgb(126 34 206);;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    transition: all .2s linear;
 }
 
 nav>div:nth-child(2) {
@@ -99,9 +112,15 @@ nav>div:nth-child(2)>ul>li>button {
     color: white;
     font-weight: bolder;
     background-color: rgb(126 34 206);
-    padding: 15px 10px 15px 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 10px;
     border: none;
+}
+nav>div:nth-child(2)>ul>li>button:hover {
+    color: white;
+    background-color: black; 
+    transition: all .2s linear; 
+    padding: 10px 15px 10px 15px; 
 }
 nav>div:nth-child(2)>ul>li>button>a {
     color: white;
@@ -126,7 +145,7 @@ nav>div:nth-child(2)>ul>li>button>a {
 
 .home1{
     width: 90%;
-    background-color: white;
+    background-color:white;
     height: 100vh;
     margin: auto;
     display: flex;
@@ -188,13 +207,19 @@ nav>div:nth-child(2)>ul>li>button>a {
     width: 40%;
 }
 .about1>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>button{
-    padding: 15px 10px 15px 10px;
+    padding: 10px 10px 10px 10px;
     background-color: rgb(126 34 206);
     color: white;
     border-radius: 10px;
     border: 0;
     margin-top:15px ;
     margin-bottom: 15px;
+}
+.about1>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>button:hover{
+    background-color: black;
+    color: white;
+    transition: all .2s linear;
+    padding: 10px 15px 10px 15px;
 }
 .about1>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>button>a{
     color: white;
@@ -217,8 +242,6 @@ nav>div:nth-child(2)>ul>li>button>a {
     width: 100%;
     margin: auto;
     margin-top: 25px;
-    padding: 0px 0 50px 0;
-    margin-bottom: 150px;
 }
 .footer>div:nth-child(1)>h1{
     margin-top: 50px;
@@ -249,6 +272,13 @@ nav>div:nth-child(2)>ul>li>button>a {
     display: flex;
     justify-content: start;
     align-items: center;
+
+}
+.footer>div>div:nth-child(3)>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    transition: all .2s linear;
 }
 .footer>div>div:nth-child(3)>div>a{
     text-decoration: none;
@@ -257,12 +287,20 @@ nav>div:nth-child(2)>ul>li>button>a {
     font-weight: bolder;
     font-size: 15px;
 }
+.footer>div>div:nth-child(3)>div>a:hover{
+    font-size: 18px;
+    transition: all .2s linear;
+}
 .footer>div>div:nth-child(3)>div>a>img{
-    width:45px;
+    width:30px;
     height: 45px;
 }
+.footer>div>div:nth-child(3)>div>a>img:hover{
+    width:35px;
+    transition: all .2s linear;
+}
 #github{
-    width: 80%;
+    width: 95%;
     margin: auto;
     margin-top: 20px;
 }
@@ -301,7 +339,7 @@ nav>div:nth-child(2)>ul>li>button>a {
     background-color: white;
     width: 80%;
     margin: auto;
-    padding: 25px 0 150px 10%;
+    padding: 50px 0 250px 10%;
     display: grid;
     grid-template-rows: repeat(3,35%);
     grid-template-columns:repeat(3,40%);
@@ -316,29 +354,35 @@ nav>div:nth-child(2)>ul>li>button>a {
 .technicalSkills>div:nth-child(2) div>img{
     width: 100px;
 }
+.technicalSkills>div:nth-child(2) div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    transition: all .2s linear;
+    padding: 0 10px 0 10px;
+    height: 115px;
+}
+
 .github{
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 25px;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0px 0;
 }
-.github>h2{
+.github h2{
     color: white;
     text-align: center;
     margin-bottom: 15px;
+    font-size: 30px;
 }
 .github>div:nth-child(2){
     background-color: white;
 }
-
-
-
 :root {
     --color-calendar-graph-day-bg: #dddbdb;
-    --color-calendar-graph-day-L1-bg: var(--first-color-lighter);
-    --color-calendar-graph-day-L2-bg: var(--first-color);
-    --color-calendar-graph-day-L3-bg: var(--first-color-second);
-    --color-calendar-graph-day-L4-bg: var(--first-color-alt);
+    --color-calendar-graph-day-L1-bg: rgb(176, 112, 232);
+    --color-calendar-graph-day-L2-bg: rgb(141, 67, 206);
+    --color-calendar-graph-day-L3-bg: rgb(102, 8, 185);
+    --color-calendar-graph-day-L4-bg: rgb(50, 0, 93);
   }
   
   rect.ContributionCalendar-day[data-level='0'] {
@@ -364,7 +408,6 @@ nav>div:nth-child(2)>ul>li>button>a {
   .calendar .width-full > .float-left {
       display: none;
   }
-  
   .calendar {
       font-family: Helvetica, arial;
       border:0;
@@ -374,33 +417,31 @@ nav>div:nth-child(2)>ul>li>button>a {
       padding: 0px 20px;
       margin: 0 auto;
   }
-  
   .calendar-graph {
       padding: 5px 0 0;
       text-align: center;
   }
-  
   .contrib-column {
       padding: 15px 0;
       text-align: center;
       border-left: 1px solid black;
       border-top: 1px solid black;
-      font-size: 11px;
+      font-size: 18px;
   }
-  
-  
   .table-column {
       display: table-cell;
       width: 1%;
       padding-right: 10px;
       padding-left: 10px;
       vertical-align: top;
+      color: rgb(97, 97, 97);
+      font-weight: bolder;
+      font-size:90%;
   }
-
-  
   text.ContributionCalendar-label {
-      fill: #ccc;
-      font-size: 11px;
+      fill:rgb(97, 97, 97);
+      font-weight: bolder;
+      font-size:55%;
   }
   #projects{
     width: 100%;
@@ -431,16 +472,27 @@ nav>div:nth-child(2)>ul>li>button>a {
     color:black;
     font-weight: 500;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 25px 0 25px 0;
+    padding: 25px 5px 35px 5px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 20px;
+  }
+  #projects>div:nth-child(2)>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    transition: all .2s linear;
+    padding: 30px 5px 35px 5px;
   }
   #projects>div:nth-child(2)>div a{
     color: black;
     text-decoration: none;
     font-weight: bolder;
     font-weight: 500;
+  }
+  #projects>div:nth-child(2)>div a:hover{
+    font-size: 20px;
+    transition: all .2s linear;
   }
   #projects>div:nth-child(2)>div>img{
     width: 90%;
@@ -458,13 +510,42 @@ nav>div:nth-child(2)>ul>li>button>a {
   #projects>div:nth-child(2)>div>div>div>div>img{
     width: 40px;
   }
+  #projects>div:nth-child(2)>div>div>div>div>img:hover{
+    width: 45px;
+    transition: all .2s linear;
+  }
   #projects>div:nth-child(2)>div:nth-child(2)>div>div>div>img{
-    width: 100px;
+    width: 80px;
+  }
+  #projects>div:nth-child(2)>div:nth-child(2)>div>div>div>img:hover{
+    width: 90px;
+    transition: all .2s linear;
   }
   #projects>div:nth-child(2)>div:nth-child(1)>div>div>div>img{
-    width: 100px;
+    width: 80px;
   }
-@media all and (min-width:600px) and (max-width:1000px) {
+  #projects>div:nth-child(2)>div:nth-child(1)>div>div>div>img:hover{
+    width: 90px;
+    transition: all .2s linear;
+  }
+  #bottom{
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  #bottom p{
+    font-size: 15px;
+  }
+  #bottom span{
+    font-size: 15px;
+  }
+@media all and (min-width:600px) and (max-width:850px) {
 
     nav>div:nth-child(2) {
         display: block;
@@ -496,9 +577,15 @@ nav>div:nth-child(2)>ul>li>button>a {
     nav>div:nth-child(2)>ul>li>button {
         color: rgb(126 34 206);
         background-color: white;
-        padding: 3px 3px 3px 3px;
+        padding: 3px 8px 3px 8px;
         border-radius: 4px;
         border: none;
+    }
+    nav>div:nth-child(2)>ul>li>button:hover {
+        color: rgb(126 34 206);
+        background-color: white;
+        padding: 5px 20px 5px 20px;
+        transition: all .2s linear;
     }
     nav>div:nth-child(2)>ul>li>button>a {
         color: rgb(126 34 206);
@@ -601,6 +688,15 @@ nav>div:nth-child(2)>ul>li>button>a {
         width: 40%;
         border-radius: 15px;
     }
+    .footer>div>div:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer>div>div:nth-child(3)>div{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     .footer>div>div:nth-child(3)>a>img{
         width: 60px;
     }
@@ -669,9 +765,15 @@ nav>div:nth-child(2)>ul>li>button>a {
     nav>div:nth-child(2)>ul>li>button {
         color: rgb(126 34 206);
         background-color: white;
-        padding: 3px 3px 3px 3px;
+        padding: 3px 8px 3px 8px;
         border-radius: 4px;
         border: none;
+    }
+    nav>div:nth-child(2)>ul>li>button:hover {
+        color: rgb(126 34 206);
+        background-color: white;
+        padding: 5px 20px 5px 20px;
+        transition: all .2s linear;
     }
     nav>div:nth-child(2)>ul>li>button>a {
         color: rgb(126 34 206);
@@ -771,11 +873,17 @@ nav>div:nth-child(2)>ul>li>button>a {
         width: 70%;
         border-radius: 15px;
     }
-
-
+    .footer>div>div:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer>div>div:nth-child(3)>div{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     .footer>div>div:nth-child(3)>a>img{
         width: 50px;
-        
     }
     #github>div:nth-child(2)>img{
         width: 100%;
