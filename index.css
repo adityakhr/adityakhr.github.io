@@ -88,6 +88,14 @@ nav>div:nth-child(2)>ul>li:nth-child(6)>a:hover {
     border-radius: 10px;
     transition: all .2s linear;
 }
+nav>div:nth-child(2)>ul>li:nth-child(7)>a:hover {
+    color:white; 
+    font-weight: bolder;
+    background-color: rgb(126 34 206);;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    transition: all .2s linear;
+}
 
 nav>div:nth-child(2) {
     width: 50%;
