@@ -287,12 +287,13 @@ nav>div:nth-child(2)>ul>li>button>a {
     background-color: white;
 }
 .footer>div>div:nth-child(3)>div{
-    width: auto;
+    width: 20%;
+    height: 50px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 
 }
@@ -546,14 +547,13 @@ nav>div:nth-child(2)>ul>li>button>a {
     padding: 25px 0 25px 0;
   }
   #projects>div:nth-child(2)>div{
-    width: 27%;
+    width: 29%;
     margin-top: 15px;
     margin-bottom: 15px;
-    height: 450px;
+    height: 550px;
     color:black;
-    font-weight: 500;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 25px 5px 35px 5px;
+    padding: 25px 5px 35px 10px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -563,24 +563,32 @@ nav>div:nth-child(2)>ul>li>button>a {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 20px;
     transition: all .2s linear;
-    padding: 30px 5px 35px 5px;
-  }
-  #projects>div:nth-child(2)>div a{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    font-weight: 500;
-  }
-  #projects>div:nth-child(2)>div a:hover{
-    font-size: 20px;
-    transition: all .2s linear;
   }
   #projects>div:nth-child(2)>div>img{
     width: 90%;
     margin: auto;
     height: 250px;
   }
-  #projects>div:nth-child(2)>div>div>div>div{
+  #projects>div:nth-child(2)>div>div>h3{
+    color: rgb(102, 8, 185);
+    margin: 10px 0 10px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #projects>div:nth-child(2)>div>div>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+  }
+  #projects>div:nth-child(2)>div>div>div>p{
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #projects>div:nth-child(2)>div>div>div:nth-child(2)>div{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -588,27 +596,38 @@ nav>div:nth-child(2)>ul>li>button>a {
     margin-top:10px ;
     margin-bottom:10px ;
   }
-  #projects>div:nth-child(2)>div>div>div>div>img{
-    width: 40px;
+  #projects>div:nth-child(2)>div>div>div:nth-child(2)>div{
+    width: 100%;
+    height: 70px;
+    margin: 10px 0 30px 0;
   }
-  #projects>div:nth-child(2)>div>div>div>div>img:hover{
+  #projects>div:nth-child(2)>div>div>div:nth-child(2)>div>img{
     width: 45px;
+  }
+  #projects>div:nth-child(2)>div>div>div>div img:hover{
+    width: 60px;
     transition: all .2s linear;
   }
-  #projects>div:nth-child(2)>div:nth-child(2)>div>div>div>img{
-    width: 80px;
+  #projects>div:nth-child(2)>div>div>div:nth-child(3){
+    width: 60%;
+    margin: auto;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  #projects>div:nth-child(2)>div:nth-child(2)>div>div>div>img:hover{
-    width: 90px;
+  #projects>div:nth-child(2)>div>div>div:nth-child(3) a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  #projects>div:nth-child(2)>div>div>div:nth-child(3) a:hover{
+    font-size: 20px;
     transition: all .2s linear;
   }
-  #projects>div:nth-child(2)>div:nth-child(1)>div>div>div>img{
-    width: 80px;
-  }
-  #projects>div:nth-child(2)>div:nth-child(1)>div>div>div>img:hover{
-    width: 90px;
-    transition: all .2s linear;
-  }
+  
   #bottom{
     margin-top: 65px;
     width: 100%;
@@ -775,8 +794,10 @@ nav>div:nth-child(2)>ul>li>button>a {
         flex-direction: column;
         align-items: center;
     }
+    
     .footer>div>div:nth-child(3)>div{
         margin-top: 0px;
+        width: 100%;
         margin-bottom: 0px;
     }
     .footer>div>div:nth-child(3)>a>img{
@@ -805,10 +826,13 @@ nav>div:nth-child(2)>ul>li>button>a {
         grid-template-columns:repeat(3,40%);
     }
     #projects>div:nth-child(2)>div{
-        width: 55%;
+        width: 45%;
         display: flex;
         flex-wrap: wrap;
     }
+    #projects>div:nth-child(2)>div>div>div:nth-child(2){
+        height: 220px;
+      }
 }
 
 
@@ -968,6 +992,7 @@ nav>div:nth-child(2)>ul>li>button>a {
     .footer{
         width: 100%;
     }
+
     .footer>div>div:nth-child(3){
         display: flex;
         flex-direction: column;
@@ -975,6 +1000,7 @@ nav>div:nth-child(2)>ul>li>button>a {
     }
     .footer>div>div:nth-child(3)>div{
         margin-top: 0px;
+        width: 100%;
         margin-bottom: 0px;
     }
     .footer>div>div:nth-child(3)>a>img{
@@ -1023,11 +1049,14 @@ nav>div:nth-child(2)>ul>li>button>a {
         width: 50px;
     }
     #projects>div:nth-child(2)>div{
-        width: 80%;
+        width: 75%;
         margin: auto;
         margin-top: 15px;
         margin-bottom: 15px;
         display: flex;
         flex-wrap: wrap;
     }
+    #projects>div:nth-child(2)>div>div>div:nth-child(2){
+        height: 200px;
+      }
 }
