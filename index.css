@@ -783,7 +783,9 @@ nav>div:nth-child(2)>ul>li>button>a {
         width: 94%;
         margin-bottom: 15px;
     }
-    
+    .about1>div:nth-child(2)>div:nth-child(1)>div:nth-child(3){
+        font-size: 15px;
+    }
     .about1>div:nth-child(2)>div:nth-child(2){
         width: 100%;
     }
@@ -838,6 +840,7 @@ nav>div:nth-child(2)>ul>li>button>a {
     #projects>div:nth-child(2)>div>div>div:nth-child(3){
         width: 80%;
     }
+    
 }
 
 
@@ -986,7 +989,9 @@ nav>div:nth-child(2)>ul>li>button>a {
         width: 95%;
         margin-bottom: 15px;
     }
-    
+    .about1>div:nth-child(2)>div:nth-child(1)>div:nth-child(3){
+        font-size: 13px;
+    }
     .about1>div:nth-child(2)>div:nth-child(2){
         width: 100%;
     }
