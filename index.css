@@ -155,6 +155,7 @@ nav>div:nth-child(2)>ul>li>button>a {
     background-color:white;
     padding: 150px 0 150px 0;
     margin: auto;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -727,6 +728,7 @@ nav>div:nth-child(2)>ul>li>button>a {
         flex-direction: column;
         align-items: center;
         margin: auto;
+        margin-bottom: 80px;
         padding: 50px 0 50px 0 ;
         
     }
@@ -958,6 +960,7 @@ nav>div:nth-child(2)>ul>li>button>a {
         align-items: center;
         padding: 100px 0 0 0;
         margin: auto;
+        margin-bottom: 80px;
     }
     .home1>div:nth-child(1){
         display: flex;
