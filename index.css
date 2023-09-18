@@ -337,6 +337,15 @@ nav>div:nth-child(2)>ul>li>button>a {
     align-items: center;
     justify-content: center;
 }
+#github>div:nth-child(1)>img:nth-child(1){
+    width: 35%;
+}
+#github>div:nth-child(1)>img:nth-child(2){
+    width: 20%;
+}
+#github>div:nth-child(1)>img:nth-child(3){
+    width: 30%;
+}
 .technicalSkills{
     width: 100%;
     margin-top: 25px;
