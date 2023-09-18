@@ -855,6 +855,15 @@ nav>div:nth-child(2)>ul>li>button>a {
     #github>div:nth-child(1)>img{
         width: 55%;
     }
+    #github>div:nth-child(1)>img:nth-child(1){
+        width: 50%;
+    }
+    #github>div:nth-child(1)>img:nth-child(2){
+        width: 50%;
+    }
+    #github>div:nth-child(1)>img:nth-child(3){
+        width: 50%;
+    }
     .footer>div>div:nth-child(3){
         display: flex;
         flex-direction: column;
@@ -1146,6 +1155,15 @@ nav>div:nth-child(2)>ul>li>button>a {
     #github>div:nth-child(1)>img{
         width: 85%;
         margin: auto;
+    }
+    #github>div:nth-child(1)>img:nth-child(1){
+        width: 90%;
+    }
+    #github>div:nth-child(1)>img:nth-child(2){
+        width: 90%;
+    }
+    #github>div:nth-child(1)>img:nth-child(3){
+        width: 90%;
     }
     .footer{
         width: 100%;
